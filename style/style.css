@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto:wght@300&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -10,25 +11,38 @@
 
 body{
     font-family: "Lato", sans-serif;
-    margin: 10px auto;
+    margin: 25px auto;
     padding: 10px;
-    width: 90%;
+    width: 100%;
 }
 body button{
     border: none;
+    background-color: transparent;
 }
 
 .header-modal-filtro{
     display: flex;
     justify-content: space-between;
+    align-items: center;
     
+}
+
+.header-modal-filtro .titulo-header{
+    font-family: "Montserrat";
 }
 
 .filtros-selecionados{
     width: 30%;
     padding: 0.05em;
     margin: 1em 0.05em;
-    
+}
+
+.filtros-selecionados ul li button{
+    border: 1px solid #6e48aa;
+    border-radius: 3px;
+    background-color: #6e48aa;
+    color: white;
+    padding: 5px;
 }
 
 .filtros-selecionados ul li button, .filtros-selecionados ul li button svg{
@@ -38,18 +52,30 @@ body button{
 }
 .classe-filtros {
     width: 100%;
-    
-
 }
-
 .classe-filtros button{
     width: 100%;
     display: flex;
     justify-content: space-between;
+    align-items: center;
     font-size: 0.8rem;
     font-weight: 600;
     text-transform: uppercase;
     padding: 0.5rem 0;
+}
+
+ .addicional-label{
+    position: relative;
+    background-color: #6e48aa;
+    border: 1px solid #6e48aa;
+    text-align: center;
+    color: white;
+    border-radius: 100%;
+    padding: 4px;
+    font-size: 10px;
+    margin-right: 10px;
+    bottom: 5px;
+   
 }
 
 .header-filtro{
@@ -102,6 +128,7 @@ body button{
     justify-content: space-between;
     text-transform: uppercase;
     padding: 0.5rem 0;
+    font-weight: 600;
 }
 
 #mobile-store-filter-panel--1 ul li{
