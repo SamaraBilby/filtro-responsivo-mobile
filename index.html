@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/style.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <header class="header-modal-filtro">
+        <h2 class="titulo-header">Filtrar</h2>
+        <button><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" viewBox="0 0 256 256"><rect width="256" height="256" fill="none"></rect><line x1="200" y1="56" x2="56" y2="200" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"></line><line x1="200" y1="200" x2="56" y2="56" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"></line></svg></button>
+    </header>
+    <div class="filtros-selecionados">
+        <ul class="lista-filtro-selecionados">
+            <li><button>Brinco 
+                <svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M9.53035 1.53033C9.82325 1.23744 9.82325 0.762563 9.53035 0.46967C9.23746 0.176777 8.76259 0.176777 8.46969 0.46967L9.53035 1.53033ZM0.46967 8.46969C0.176777 8.76259 0.176777 9.23746 0.46967 9.53035C0.762563 9.82325 1.23744 9.82325 1.53033 9.53035L0.46967 8.46969ZM1.53036 0.46967C1.23746 0.176777 0.762589 0.176777 0.469695 0.46967C0.176802 0.762563 0.176802 1.23744 0.469695 1.53033L1.53036 0.46967ZM8.46972 9.53035C8.76261 9.82325 9.23749 9.82325 9.53038 9.53035C9.82327 9.23746 9.82327 8.76259 9.53038 8.46969L8.46972 9.53035ZM8.46969 0.46967L0.46967 8.46969L1.53033 9.53035L9.53035 1.53033L8.46969 0.46967ZM0.469695 1.53033L8.46972 9.53035L9.53038 8.46969L1.53036 0.46967L0.469695 1.53033Z" fill="#272727">
+                    </path>
+                </svg>
+            </button>
+            </li>
+        </ul>
+    </div>
+    <div class="classe-filtros">
+        <div class="acocordion" data-testid="store-accordion" role="region">
+            <div data-accordion-item="true" data-testid="mobile-store-filter-accordion-item">
+                <button data-store-button="true" data-testid="mobile-store-filter-accordion-button" id="mobile-store-filter-button--0" aria-expanded="false" aria-controls="mobile-store-filter-panel--0" data-accordion-button="true" class="title-subsection">Categoria<div><span class="addicional-label">1</span><span data-store-icon="true" data-testid="mobile-store-filter-accordion-button-icon"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" viewBox="0 0 256 256"><rect width="256" height="256" fill="none"></rect><polyline points="208 96 128 176 48 96" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"></polyline></svg></span></div>
+                </button>
+                <div id="mobile-store-filter-panel--0" aria-labelledby="mobile-store-filter-button--0" role="region" data-accordion-panel="true" data-testid="mobile-store-filter-accordion-panel">
+                    <header class="header-filtro">
+                        <div class="header-filtro-conteudo">
+                            <span class="quantidade-facets">1 selecionado(s)</span>
+                        </div>
+                        <div class="header-filtro-controle">
+                            <span><button>aplicar filtro</button></span>
+                            <span><a href="#">Limpar</a></span>
+                        </div>
+                    </header>
+                    <ul>
+                        <li class="filtrar-item">
+                            <input type="checkbox" id="mobile-store-filter-Categoria-Joias">
+                            <label for="mobile-store-filter-Categoria-Joias">Joias</label>
+                            <span>(43)</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div data-accordion-item="true" data-testid="mobile-store-filter-accordion-item">
+        <button data-store-button="true" data-testid="mobile-store-filter-accordion-button" id="mobile-store-filter-button--1" aria-expanded="false" aria-controls="mobile-store-filter-panel--0" data-accordion-button="true" class="title-subsection">Subcategoria<div><span class="addicional-label">1</span><span data-store-icon="true" data-testid="mobile-store-filter-accordion-button-icon"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" viewBox="0 0 256 256"><rect width="256" height="256" fill="none"></rect><polyline points="208 96 128 176 48 96" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"></polyline></svg></span></div>
+        </button>
+        <div id="mobile-store-filter-panel--1" aria-labelledby="mobile-store-filter-button--0" role="region" data-accordion-panel="true" data-testid="mobile-store-filter-accordion-panel">
+        <header class="header-filtro">
+            <div class="header-filtro-conteudo">
+                <span class="quantidade-facets">1 selecionado(s)</span>
+            </div>
+            <div class="header-filtro-controle">
+                <span><button>aplicar filtro</button></span>
+                    <span><a href="#">Limpar</a></span>
+            </div>
+        </header>
+        <ul>
+            <li class="filtrar-item">
+                <input type="checkbox" id="mobile-store-filter-Categoria-Joias">
+                <label for="mobile-store-filter-Categoria-Joias">Anéis</label>
+                <span>(43)</span>
+            </li>
+
+            <li class="filtrar-item">
+                <input type="checkbox" id="mobile-store-filter-Categoria-Joias">
+                <label for="mobile-store-filter-Categoria-Joias">Brincos</label>
+                <span>(43)</span>
+            </li>
+
+            <li class="filtrar-item">
+                <input type="checkbox" id="mobile-store-filter-Categoria-Joias">
+                <label for="mobile-store-filter-Categoria-Joias">Colares</label>
+                <span>(43)</span>
+            </li>
+
+            <li class="filtrar-item">
+                <input type="checkbox" id="mobile-store-filter-Categoria-Joias">
+                <label for="mobile-store-filter-Categoria-Joias">Conjuntos</label>
+                <span>(43)</span>
+            </li>
+
+            <li class="filtrar-item">
+                <input type="checkbox" id="mobile-store-filter-Categoria-Joias">
+                <label for="mobile-store-filter-Categoria-Joias">Correntes</label>
+                <span>(43)</span>
+            </li>
+
+            <li class="filtrar-item">
+                <input type="checkbox" id="mobile-store-filter-Categoria-Joias">
+                <label for="mobile-store-filter-Categoria-Joias">Infantil</label>
+                <span>(43)</span>
+            </li>
+
+            <li class="filtrar-item">
+                <input type="checkbox" id="mobile-store-filter-Categoria-Joias">
+                <label for="mobile-store-filter-Categoria-Joias">Masculinas</label>
+                <span>(43)</span>
+            </li>
+
+            <li class="filtrar-item">
+                <input type="checkbox" id="mobile-store-filter-Categoria-Joias">
+                <label for="mobile-store-filter-Categoria-Joias">Pingintes</label>
+                <span>(43)</span>
+            </li>
+
+            <li class="filtrar-item">
+                <input type="checkbox" id="mobile-store-filter-Categoria-Joias">
+                <label for="mobile-store-filter-Categoria-Joias">Religiosas</label>
+                <span>(43)</span>
+            </li>
+
+            <li class="filtrar-item">
+                <input type="checkbox" id="mobile-store-filter-Categoria-Joias">
+                <label for="mobile-store-filter-Categoria-Joias">Alta Joalheria</label>
+                <span>(43)</span>
+            </li>
+
+            <li class="filtrar-item">
+                <input type="checkbox" id="mobile-store-filter-Categoria-Joias">
+                <label for="mobile-store-filter-Categoria-Joias">Stone Collection</label>
+                <span>(43)</span>
+            </li>
+
+         </ul>
+    </div>
+    <div data-accordion-item="true" data-testid="mobile-store-filter-accordion-item">
+        <button data-store-button="true" data-testid="mobile-store-filter-accordion-button" id="mobile-store-filter-button--1" aria-expanded="false" aria-controls="mobile-store-filter-panel--0" data-accordion-button="true" class="title-subsection">Pedra<div><span class="addicional-label">1</span><span data-store-icon="true" data-testid="mobile-store-filter-accordion-button-icon"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" viewBox="0 0 256 256"><rect width="256" height="256" fill="none"></rect><polyline points="208 96 128 176 48 96" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"></polyline></svg></span></div>
+        </button>
+        <div id="mobile-store-filter-panel--1" aria-labelledby="mobile-store-filter-button--0" role="region" data-accordion-panel="true" data-testid="mobile-store-filter-accordion-panel">
+        <header class="header-filtro">
+            <div class="header-filtro-conteudo">
+                <span class="quantidade-facets">1 selecionado(s)</span>
+            </div>
+            <div class="header-filtro-controle">
+                <span><button>aplicar filtro</button></span>
+                    <span><a href="#">Limpar</a></span>
+            </div>
+        </header>
+        <ul>
+            <li class="filtrar-item">
+                <input type="checkbox" id="mobile-store-filter-Categoria-Joias">
+                <label for="mobile-store-filter-Categoria-Joias">Ametista</label>
+                <span>(43)</span>
+            </li>
+
+            <li class="filtrar-item">
+                <input type="checkbox" id="mobile-store-filter-Categoria-Joias">
+                <label for="mobile-store-filter-Categoria-Joias">Água Marinha</label>
+                <span>(43)</span>
+            </li>
+
+            <li class="filtrar-item">
+                <input type="checkbox" id="mobile-store-filter-Categoria-Joias">
+                <label for="mobile-store-filter-Categoria-Joias">Blue Green</label>
+                <span>(43)</span>
+            </li>
+
+            <li class="filtrar-item">
+                <input type="checkbox" id="mobile-store-filter-Categoria-Joias">
+                <label for="mobile-store-filter-Categoria-Joias">Cristal</label>
+                <span>(43)</span>
+            </li>
+
+            <li class="filtrar-item">
+                <input type="checkbox" id="mobile-store-filter-Categoria-Joias">
+                <label for="mobile-store-filter-Categoria-Joias">Cristalde Rocha</label>
+                <span>(43)</span>
+            </li>
+
+            <li class="filtrar-item">
+                <input type="checkbox" id="mobile-store-filter-Categoria-Joias">
+                <label for="mobile-store-filter-Categoria-Joias">Cristalde Turmalina Paraíba</label>
+                <span>(43)</span>
+            </li>
+
+            <li class="filtrar-item">
+                <input type="checkbox" id="mobile-store-filter-Categoria-Joias">
+                <label for="mobile-store-filter-Categoria-Joias">Cristalde Tanzanita</label>
+                <span>(43)</span>
+            </li>
+
+            <li class="filtrar-item">
+                <input type="checkbox" id="mobile-store-filter-Categoria-Joias">
+                <label for="mobile-store-filter-Categoria-Joias">Citrino</label>
+                <span>(43)</span>
+            </li>
+
+            <li class="filtrar-item">
+                <input type="checkbox" id="mobile-store-filter-Categoria-Joias">
+                <label for="mobile-store-filter-Categoria-Joias">Diamante</label>
+                <span>(43)</span>
+            </li>
+
+            <li class="filtrar-item">
+                <input type="checkbox" id="mobile-store-filter-Categoria-Joias">
+                <label for="mobile-store-filter-Categoria-Joias">Diamante Negro</label>
+                <span>(43)</span>
+            </li>
+
+            <li class="filtrar-item">
+                <input type="checkbox" id="mobile-store-filter-Categoria-Joias">
+                <label for="mobile-store-filter-Categoria-Joias">Esmeralda</label>
+                <span>(43)</span>
+            </li>
+
+            <li class="filtrar-item">
+                <input type="checkbox" id="mobile-store-filter-Categoria-Joias">
+                <label for="mobile-store-filter-Categoria-Joias">Onix</label>
+                <span>(43)</span>
+            </li>
+
+            <li class="filtrar-item">
+                <input type="checkbox" id="mobile-store-filter-Categoria-Joias">
+                <label for="mobile-store-filter-Categoria-Joias">Pérola</label>
+                <span>(43)</span>
+            </li>
+
+            <li class="filtrar-item">
+                <input type="checkbox" id="mobile-store-filter-Categoria-Joias">
+                <label for="mobile-store-filter-Categoria-Joias">Quartzo Fume</label>
+                <span>(43)</span>
+            </li>
+
+            <li class="filtrar-item">
+                <input type="checkbox" id="mobile-store-filter-Categoria-Joias">
+                <label for="mobile-store-filter-Categoria-Joias">Quartzo Rubi</label>
+                <span>(43)</span>
+            </li>
+
+            <li class="filtrar-item">
+                <input type="checkbox" id="mobile-store-filter-Categoria-Joias">
+                <label for="mobile-store-filter-Categoria-Joias">Rubi</label>
+                <span>(43)</span>
+            </li>
+
+            <li class="filtrar-item">
+                <input type="checkbox" id="mobile-store-filter-Categoria-Joias">
+                <label for="mobile-store-filter-Categoria-Joias">Safira</label>
+                <span>(43)</span>
+            </li>
+
+            <li class="filtrar-item">
+                <input type="checkbox" id="mobile-store-filter-Categoria-Joias">
+                <label for="mobile-store-filter-Categoria-Joias">Tanzanita</label>
+                <span>(43)</span>
+            </li>
+
+            <li class="filtrar-item">
+                <input type="checkbox" id="mobile-store-filter-Categoria-Joias">
+                <label for="mobile-store-filter-Categoria-Joias">Topázio Azul</label>
+                <span>(43)</span>
+            </li>
+         </ul>
+    </div>
+    <div data-accordion-item="true" data-testid="mobile-store-filter-accordion-item">
+        <button data-store-button="true" data-testid="mobile-store-filter-accordion-button" id="mobile-store-filter-button--1" aria-expanded="false" aria-controls="mobile-store-filter-panel--0" data-accordion-button="true" class="title-subsection">Material<div><span class="addicional-label">1</span><span data-store-icon="true" data-testid="mobile-store-filter-accordion-button-icon"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" viewBox="0 0 256 256"><rect width="256" height="256" fill="none"></rect><polyline points="208 96 128 176 48 96" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"></polyline></svg></span></div>
+        </button>
+        <div id="mobile-store-filter-panel--1" aria-labelledby="mobile-store-filter-button--0" role="region" data-accordion-panel="true" data-testid="mobile-store-filter-accordion-panel">
+        <header class="header-filtro">
+            <div class="header-filtro-conteudo">
+                <span class="quantidade-facets">1 selecionado(s)</span>
+            </div>
+            <div class="header-filtro-controle">
+                <span><button>aplicar filtro</button></span>
+                    <span><a href="#">Limpar</a></span>
+            </div>
+        </header>
+        <ul>
+            <li class="filtrar-item">
+                <input type="checkbox" id="mobile-store-filter-Categoria-Joias">
+                <label for="mobile-store-filter-Categoria-Joias">Ouro Amarelo</label>
+                <span>(43)</span>
+            </li>
+
+            <li class="filtrar-item">
+                <input type="checkbox" id="mobile-store-filter-Categoria-Joias">
+                <label for="mobile-store-filter-Categoria-Joias">Ouro Branco</label>
+                <span>(43)</span>
+            </li>
+
+            <li class="filtrar-item">
+                <input type="checkbox" id="mobile-store-filter-Categoria-Joias">
+                <label for="mobile-store-filter-Categoria-Joias">Prata</label>
+                <span>(43)</span>
+            </li>
+
+            <li class="filtrar-item">
+                <input type="checkbox" id="mobile-store-filter-Categoria-Joias">
+                <label for="mobile-store-filter-Categoria-Joias">Prata com acabamento em ouro</label>
+                <span>(43)</span>
+            </li>
+
+            <li class="filtrar-item">
+                <input type="checkbox" id="mobile-store-filter-Categoria-Joias">
+                <label for="mobile-store-filter-Categoria-Joias">Rosé</label>
+                <span>(43)</span>
+            </li>
+
+         </ul>
+    </div>
+    <div data-accordion-item="true" data-testid="mobile-store-filter-accordion-item">
+        <button data-store-button="true" data-testid="mobile-store-filter-accordion-button" id="mobile-store-filter-button--1" aria-expanded="false" aria-controls="mobile-store-filter-panel--0" data-accordion-button="true" class="title-subsection">Marca<div><span class="addicional-label">1</span><span data-store-icon="true" data-testid="mobile-store-filter-accordion-button-icon"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" viewBox="0 0 256 256"><rect width="256" height="256" fill="none"></rect><polyline points="208 96 128 176 48 96" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"></polyline></svg></span></div>
+        </button>
+        <div id="mobile-store-filter-panel--1" aria-labelledby="mobile-store-filter-button--0" role="region" data-accordion-panel="true" data-testid="mobile-store-filter-accordion-panel">
+        <header class="header-filtro">
+            <div class="header-filtro-conteudo">
+                <span class="quantidade-facets">1 selecionado(s)</span>
+            </div>
+            <div class="header-filtro-controle">
+                <span><button>aplicar filtro</button></span>
+                    <span><a href="#">Limpar</a></span>
+            </div>
+        </header>
+        <ul>
+            <li class="filtrar-item">
+                <input type="checkbox" id="mobile-store-filter-Categoria-Joias">
+                <label for="mobile-store-filter-Categoria-Joias">Joias Vip</label>
+                <span>(43)</span>
+            </li>
+         </ul>
+    </div>
+</body>
+</html>

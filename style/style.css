@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    color:black;
+}
+
+body{
+    font-family: "Lato", sans-serif;
+    margin: 10px auto;
+    padding: 10px;
+    width: 90%;
+}
+body button{
+    border: none;
+}
+
+.header-modal-filtro{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.filtros-selecionados{
+    width: 30%;
+    padding: 0.05em;
+    margin: 1em 0.05em;
+    
+}
+
+.filtros-selecionados ul li button, .filtros-selecionados ul li button svg{
+    align-items: center;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+.classe-filtros {
+    width: 100%;
+    
+
+}
+
+.classe-filtros button{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.8rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 0.5rem 0;
+}
+
+.header-filtro{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-filtro .header-filtro-conteudo{
+    font-size: 10px;
+    margin: 5px 0 ;
+ 
+}
+.header-filtro .header-filtro-controle{
+    display: inline-flex;
+    text-transform: uppercase;
+    font-size: 12px;
+    align-items: center;
+    padding: 1rem;
+}
+.header-filtro .header-filtro-controle button{
+    font-size: 12px;
+    font-weight: 600;
+    margin-right: 15px;
+    
+}
+.header-filtro .header-filtro-controle a{
+    font-size: 12px;
+}
+
+#mobile-store-filter-panel--0 ul li{
+    display: flex;
+    margin-bottom: 25px;
+    padding: 1rem;
+    align-items: center;
+    font-size: 13px;
+}
+
+.filtrar-item input{
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+}
+
+#mobile-store-filter-button--1 {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-transform: uppercase;
+    padding: 0.5rem 0;
+}
+
+#mobile-store-filter-panel--1 ul li{
+    display: flex;
+    align-items: center;
+    padding-left: 1rem;
+    padding-bottom: 0.5rem;
+    font-size: 13px;
+}
+
+.header-filtro .header-filtro-controle span button {
+    text-transform: uppercase;
+}
+
+#mobile-store-filter-panel--1 ul li span{
+    margin-left: 5px;
+}
